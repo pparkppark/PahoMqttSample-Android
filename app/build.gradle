@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "org.eclipse.paho.android.service.sample"
+        minSdkVersion 11
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    packagingOptions {
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/logcat.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_cs.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_de.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_es.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_fr.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_hu.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_it.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_ja.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_ko.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_pl.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_pt_BR.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_ru.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_zh_CN.properties'
+//        exclude 'org/eclipse/paho/client/mqttv3/internal/nls/messages_zh_TW.properties'
+
+
+
+
+
+
+
+    }
+}
+
+dependencies {
+    compile project(':orgeclipsepahoandroidservice')
+    compile 'com.android.support:support-v4:19.1.0'
+//    compile 'org.eclipse.paho:mqtt-client:0.4.0'
+}
